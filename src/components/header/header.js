@@ -1,7 +1,7 @@
 import './header.css';
 
 const Header = () => {
-    const date = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"});
+    const date = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"long", day:"numeric"});
     return (
     <header>
     <h1>Weather</h1>

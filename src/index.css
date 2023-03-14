@@ -1,12 +1,5 @@
-body {
-  margin: 0;
-  font-family: "Roboto", Arial !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #d5d4d4;
+html, body {
+  background: linear-gradient(rgba(12,6,125,1) 0%, rgba(8,8,168,1) 20%, rgba(11,57,200,1) 36%, rgba(8,101,203,1) 53%, rgba(8,139,219,1) 69%, rgba(9,169,226,1) 87%, rgba(9,199,237,1) 100%);
+  min-height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
