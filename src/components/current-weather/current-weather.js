@@ -1,14 +1,12 @@
 import "./current-weather.css";
 
 const CurrentWeather = ({data}) => {
-  const timeNow = new Date().toLocaleTimeString('it-IT');
   return (
     <div className="weather">
       <div className="top">
         <div>
           <p className="city">{data.city}</p>
           <p className="weather-description">{data.weather[0].description}</p>
-          <p className="time-now">{timeNow}</p>
         </div>
         <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon}.png`}></img>
       </div>
