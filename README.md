@@ -1,6 +1,12 @@
 # Weather Forecast Web Application 
 
 ## How to run?
+#### This weather and forecast web application uses a weather API to retrieve current weather and forecast data for a selected city.
+#### The user can search for a city and the app displays details about the current weather condition and also a forecast section that displays the forecast for the next #### seve days.
+
+#### This project was built using React (a popular JavaScript library for building user interfaces), and Node.js. In addition, the project makes use of APIs, specifically #### the OpenWeatherMap API, to gather weather data about cities in the world. Other technologies used include HTML, CSS, and JavaScript.
+
+## How to run?
 ### In the terminal, run:
 ### `npm start`
 
