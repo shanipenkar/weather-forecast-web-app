@@ -1,6 +1,6 @@
 # Weather Forecast Web Application 
 
-## How to run?
+## Summary
 #### This weather and forecast web application uses a weather API to retrieve current weather and forecast data for a selected city.
 #### The user can search for a city and the app displays details about the current weather condition and also a forecast section that displays the forecast for the next #### seve days.
 
